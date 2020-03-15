@@ -1,0 +1,122 @@
+body{
+  color: #333333;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 950px;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+body h2 {
+  text-align: left;
+}
+
+.main-container{
+  font-family: Arial, Helvetica, sans-serif;
+  max-width:auto;
+  margin: 0 auto;
+  padding: 16px;
+  color: #888888;
+  text-align: left;
+  flex-grow: 1;
+  float: left;
+}
+.container{
+  font-family: Arial, Helvetica, sans-serif;
+  max-width:auto;
+  margin: 0 auto;
+  padding: 16px;
+  color: #888888;
+  text-align: left;
+  /* border-top: 1px solid #eeeeee; */
+}
+
+ul{
+  margin: 16px;
+  padding: 16px;
+  color: #888888;
+}
+
+li {
+  display: inline-block;
+  padding: 10px;
+}
+
+li .contact{
+  display: inline-block;
+  padding: 10px;
+}
+
+footer{
+  color: #888888;
+  border-top: 1px solid #eeeeee;
+}
+
+
+h1{
+  font-size: 54px; 
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+header a {
+  color: #888888;
+  margin-right:0;
+  text-decoration: none;  
+}
+
+header{
+  border-bottom: 1px solid #eeeeee;
+  margin-bottom: 10px;
+}
+
+body image{
+  width: 650px;
+  z-index: -1;
+}
+
+body #body_backdrop_pic{
+  opacity: .7 ;
+}
+
+/* .centered{
+  text-align: center;
+} */
+
+footer p {
+  padding-top: 28px;
+  text-align: center;
+}
+
+body .logo{
+  width: 30px;
+  padding-right: 16px;
+}
+
+body .logo_main{
+  width: 55px;
+  padding-right: 16px;
+}
+
+body .about, .help {
+  font-size:34px ;
+  margin-left: 20px;
+}
+
+input{
+  border-radius: 12px;
+  border: 1px solid #cccccc;
+  padding: 8px;
+}
+
+button{
+  border-radius: 12px;
+  cursor: pointer;
+  border: 1px solid #888888;
+  background: #888888;
+  color: white;
+  padding: 8px;
+}
