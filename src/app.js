@@ -5,6 +5,7 @@ const geocode = require("./utils/geocode")
 const forecast = require("./utils/forecast")
 
 const app = express()
+const port = process.env.PORT || 3000
 
 //Define paths for Express config
 const  publicDirectoryPath = path.join(__dirname, '../public')
@@ -82,16 +83,6 @@ app.get('*', (req, res)=>{
 
 
 
-app.listen(3000, ()=>{
+app.listen(port, ()=>{
     console.log("Server is working on port 3000")
 })
-
-
-
-// https://daneden.github.io/animate.css/
-// to make it animated
-
-
-// github Heroku 8209859515@july
-
-// https://www.c-sharpcorner.com/article/crud-operation-in-angular-7-using-web-api/
